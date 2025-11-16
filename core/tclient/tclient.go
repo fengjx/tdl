@@ -15,11 +15,11 @@ import (
 	"github.com/gotd/td/telegram/dcs"
 	"golang.org/x/net/proxy"
 
-	"github.com/iyear/tdl/core/logctx"
-	"github.com/iyear/tdl/core/middlewares/recovery"
-	"github.com/iyear/tdl/core/middlewares/retry"
-	"github.com/iyear/tdl/core/util/netutil"
-	"github.com/iyear/tdl/core/util/tutil"
+	"github.com/fengjx/tdl/core/logctx"
+	"github.com/fengjx/tdl/core/middlewares/recovery"
+	"github.com/fengjx/tdl/core/middlewares/retry"
+	"github.com/fengjx/tdl/core/util/netutil"
+	"github.com/fengjx/tdl/core/util/tutil"
 )
 
 // dc values can be overridden globally

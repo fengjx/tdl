@@ -11,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/iyear/tdl/app/extension"
-	"github.com/iyear/tdl/core/storage"
-	extbase "github.com/iyear/tdl/extension"
-	"github.com/iyear/tdl/pkg/consts"
-	"github.com/iyear/tdl/pkg/extensions"
-	"github.com/iyear/tdl/pkg/tclient"
+	"github.com/fengjx/tdl/app/extension"
+	"github.com/fengjx/tdl/core/storage"
+	extbase "github.com/fengjx/tdl/extension"
+	"github.com/fengjx/tdl/pkg/consts"
+	"github.com/fengjx/tdl/pkg/extensions"
+	"github.com/fengjx/tdl/pkg/tclient"
 )
 
 func NewExtension(em *extensions.Manager) *cobra.Command {

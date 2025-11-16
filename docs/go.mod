@@ -1,4 +1,4 @@
-module github.com/iyear/tdl/docs
+module github.com/fengjx/tdl/docs
 
 go 1.23.10
 

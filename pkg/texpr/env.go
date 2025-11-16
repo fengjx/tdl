@@ -6,9 +6,9 @@ import (
 	"github.com/gotd/td/tg"
 	"go.uber.org/zap"
 
-	"github.com/iyear/tdl/core/logctx"
-	"github.com/iyear/tdl/core/tmedia"
-	"github.com/iyear/tdl/core/util/tutil"
+	"github.com/fengjx/tdl/core/logctx"
+	"github.com/fengjx/tdl/core/tmedia"
+	"github.com/fengjx/tdl/core/util/tutil"
 )
 
 type EnvMessage struct {
