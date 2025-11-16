@@ -67,7 +67,7 @@ func New() *cobra.Command {
 
 	cmd := &cobra.Command{
 		Use:           "tdl",
-		Short:         "Telegram Downloader, but more than a downloader",
+		Short:         "Telegram Downloader, but more than a downloader, fork by iyear",
 		SilenceErrors: true,
 		SilenceUsage:  true,
 		PersistentPreRunE: func(cmd *cobra.Command, args []string) error {
